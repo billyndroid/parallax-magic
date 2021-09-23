@@ -32,6 +32,24 @@ main {
 h2 {
     
 }
+picture {
+
+}
 #heroImage {
+    background-position:center; 
+    background-repeat:no-repeat; 
+    background-size: auto;
+    background-image: src="assets\placeholder-1920x860.png";
+}
+article {
+
+}
+h2 {
+
+}
+h3 {
+
+}
+p {
 
 }
