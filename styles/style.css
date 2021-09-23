@@ -34,16 +34,15 @@ li {
 
 }
 #logo {
-    display: block;
-    float: left;
-    clear: left;
+    
     
 }
 main {
 
 }
 #mainTitle {
-
+    padding-left:20px;
+    text-align: center;
 }
 #heroSection {
     background-image: url(/assets/placeholderbg.png);
@@ -80,7 +79,7 @@ footer {
         left: 0;
         bottom: 0;
         width: 100%;
-        background-color: grey;
+        background-color: rgb(47,79,79, 0.75);
         color: white;
         text-align: center;
 }
@@ -105,8 +104,9 @@ footer {
   //snippet from w3schools
   .header {
     overflow: hidden;
-    background-color: #f1f1f1;
-    padding: 20px 10px;
+    position: fixed;
+    background-color: grey;
+    padding: 0px 0px; 
   }
   
   .header a {
@@ -123,6 +123,9 @@ footer {
   .header a.logo {
     font-size: 25px;
     font-weight: bold;
+    display: block;
+    float: left;
+    clear: left;
   }
   
   .header a:hover {
@@ -131,7 +134,7 @@ footer {
   }
   
   .header a.active {
-    background-color: dodgerblue;
+    background-color: grey;
     color: white;
   }
   
