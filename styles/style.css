@@ -1,11 +1,9 @@
 html {
-    background-image: url(/assets/placeholderbg.png);
-   /* height: 100vh;
+   height: 100vh;
     display: flex;
     flex-direction: column;
-    background:
     font-family: sans-serif;
-    color: black;*/
+    color: black;
 }
 .lightMode {
 
@@ -14,12 +12,10 @@ html {
 
 }
 body {
-    
     height: 100vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
-    align-items: center;
     background: linear-gradient(rgb(27,150,163), rgb(48,62,143));
     font-family: sans-serif;
     color: white;
@@ -38,7 +34,10 @@ li {
 
 }
 #logo {
-
+    display: block;
+    float: right;
+    clear: right;
+    
 }
 main {
 
@@ -55,17 +54,15 @@ h2 {
 picture {
 
 }
-.heroImage {
+#heroSection {
     background-image: url(/assets/placeholderbg.png);
     background-position:center; 
     background-repeat:no-repeat;
-    max-height: 1000px;
-    
+    max-height: auto;
     z-index: -10;
 }
 article {
-    background-image: linear-gradient(to bottom, rgba(255,255,0,0.5), rgba(0,0,255,0.5)),
-    url('../assets/placeholderbg.png');
+    background-image: url(../assets/placeholderbg.png)
 }
 h2 {
 
