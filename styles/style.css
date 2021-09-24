@@ -17,6 +17,7 @@ body {
 }
 /*Photo by <a href="https://unsplash.com/@j_h?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Julian Hanslmaier</a> on <a href="https://unsplash.com/s/photos/person-on-mountain?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   */
+  
 .parallax {
   background-image: url("../assets/background.png");
   height: 100%;
@@ -44,7 +45,7 @@ body {
   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
  font-size: 72px;
  float: inherit;
- z-index: 100;
+
 
 }
 /* Centered text */
@@ -55,7 +56,7 @@ body {
   transform: translate(-50%, -50%);
 }
 #heroSection {
-    animation: mymove 5s infinite;
+    /*animation: mymove 5s infinite;*/
    background-image: url("../assets/placeholderbg.png");
    width: 100%;
    background-size:1000%
@@ -63,9 +64,10 @@ body {
    background-repeat:no-repeat;
    max-height: auto;
 }
+/*
 @keyframes mymove {
   50% {padding-bottom: 50px;}
-}
+}*/
 #sectionImage {
    display: block;
    margin-left: auto;
