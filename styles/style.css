@@ -11,6 +11,7 @@ body {
   justify-content: center;
   flex-direction: column;
   background: linear-gradient(rgb(27,150,163), rgb(48,62,143));
+  background-repeat: no-repeat;
   font-family: sans-serif;
   color: white;
 }
@@ -34,6 +35,8 @@ body {
   position: relative;
   text-align: center;
   color: white;
+  height: 100%;
+  width: 100%;
 }
 #mainTitle {
   padding-left:5px;
