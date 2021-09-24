@@ -4,53 +4,34 @@ html {
    flex-direction: column;
    font-family: sans-serif;
    color: black;
-}
-
-.lightMode {
-
-}
-.darkMode {
-
+   scroll-behavior: smooth;
 }
 body {
-   display: flex;
-   justify-content: center;
-   flex-direction: column;
-   background: linear-gradient(rgb(27,150,163), rgb(48,62,143));
-   font-family: sans-serif;
-   color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  background: linear-gradient(rgb(27,150,163), rgb(48,62,143));
+  font-family: sans-serif;
+  color: white;
 }
-header {
-
+.parallax {
+  background-image: url("../assets/mika-baumeister-1_06J3TR84Y-unsplash.jpg");
+  height: 100%;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
-}
-.navbar {
-
-}
-ul {
-
-}
-li {
-
-}
-#logo {
-   
-   
-}
-main {
-
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+    background-attachment: scroll;
+  }
 }
 .container {
   position: relative;
   text-align: center;
   color: white;
-}
-/* Centered text */
-.centered {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
 }
 #mainTitle {
   padding-left:5px;
@@ -61,28 +42,25 @@ main {
  z-index: 100;
 
 }
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 #heroSection {
     animation: mymove 5s infinite;
-   background-image: url(/assets/placeholderbg.png);
+   background-image: url("../assets/placeholderbg.png");
    width: 100%;
    background-size:1000%
    background-position:center; 
    background-repeat:no-repeat;
    max-height: auto;
-   z-index: 99;
 }
 @keyframes mymove {
   50% {padding-bottom: 50px;}
 }
-h2 {
-   
-}
-picture {
-
-}
-#heroImage {
-
-} 
 #sectionImage {
    display: block;
    margin-left: auto;
@@ -122,7 +100,7 @@ footer {
    text-decoration: none;
  }
  
- /* Add a hover effect if you want */
+ /*hover effect*/
  .fa:hover {
    opacity: 0.7;
  }
@@ -178,10 +156,3 @@ footer {
      float: none;
    }
  }
-
-
- 
- top: 0;
- z-index: 100;
- position: fixed;
- width: 100%;
