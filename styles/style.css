@@ -5,6 +5,7 @@ html {
    font-family: sans-serif;
    color: black;
 }
+
 .lightMode {
 
 }
@@ -39,21 +40,39 @@ li {
 main {
 
 }
+.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Centered text */
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 #mainTitle {
-   padding-left:5px;
-   text-align: center;
-   font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 72px;
+  padding-left:5px;
+  text-align: center;
+  font-family: Roboto, Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 72px;
+ float: inherit;
+ z-index: 100;
 
 }
 #heroSection {
+    animation: mymove 5s infinite;
    background-image: url(/assets/placeholderbg.png);
    width: 100%;
    background-size:1000%
    background-position:center; 
    background-repeat:no-repeat;
    max-height: auto;
-   z-index: -10;
+   z-index: 99;
+}
+@keyframes mymove {
+  50% {padding-bottom: 50px;}
 }
 h2 {
    
