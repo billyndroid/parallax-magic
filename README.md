@@ -21,6 +21,24 @@ Timeline Section - Just a small profile section that is presented in an interest
 
 Parallax effects - am experimenting with photographs but may have to design my own assets in Photoshop. 
 
+Found photo with adequate depth and potential to layer by ___ at Unsplash (credited in HTML code and footer)
+
+imported into Photoshop 
+
+selected outline of foreground (including human subject) using object select
+
+added to selection using lasso object select
+
+fine adjustments using zoom/ lasso tool
+
+created layer from copy to be used as foreground image in parallax effect
+
+expanded by 10px to remove any hard edges and prevent aliasing 
+
+used content-aware fill to manually select area to sample 
+
+prep to be used as background image for parallax effect by removing from background and cleaning up with clone stamp and various brushes using the eyedropper to select colours in vicinity
+
 Portfolio Carousel - Must look pretty but most importantly have some projects of increasing substance as I progress. Highlight all you have learned as you go. 
 
 Ideally portfolio will contain:
