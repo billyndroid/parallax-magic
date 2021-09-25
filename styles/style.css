@@ -59,8 +59,8 @@ body {
     /*animation: mymove 5s infinite;*/
    background-image: url("../assets/placeholderbg.png");
    width: 100%;
-   background-size:1000%
-   background-position:center; 
+   background-size:1000%;
+   background-position: center; 
    background-repeat:no-repeat;
    max-height: auto;
 }
@@ -75,17 +75,9 @@ body {
    width: 20%;
 }
 article {
-   background-image: url(../assets/placeholderbg.png)
+   background-image: url(../assets/placeholderbg.png);
 }
-h2 {
 
-}
-h3 {
-
-}
-p {
-
-}
 footer {
        position: fixed;
        left: 0;
@@ -111,7 +103,7 @@ footer {
  .fa:hover {
    opacity: 0.7;
  }
- //snippet from w3schools
+/*snippet from w3schools*/
  .header {
    overflow: hidden;
    position: fixed;
