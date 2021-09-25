@@ -1,6 +1,17 @@
 # parallax-magic
 Putting together a portfolio and I want to provide examples of modern web design techniques. 
-I can increase efficiency exponentially by documenting the process, and using it in more than one project: Blog post, Example for Portfolio, and summarise for a twitter thread to promote. Creating backlinks!
+I can increase efficiency exponentially by documenting the process, and using it in more than one project: 
+
+Blog post - Have saved PS screenshots of hero image for parallax
+
+Example for Portfolio - Have saved PS screenshots of hero image for parallax
+
+
+summarise for a twitter thread to promote. 
+
+Creating backlinks!
+
+__________________
 As this may eventually become a portfolio have will be using Adobe XD to design some motion into:
 
 Firstly a timeline animated with scroll down or keyboard arrow keys, leading into a projects section which will be animated from side to create interest and will include some kind of pop-out, animated carousel. 
