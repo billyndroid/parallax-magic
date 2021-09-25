@@ -21,6 +21,16 @@ Timeline Section - Just a small profile section that is presented in an interest
 
 Parallax effects - am experimenting with photographs but may have to design my own assets in Photoshop. 
 
-Portfolio Carousel - Must look pretty but most importantly have some projects of increasing substance as I progress. Highlight all you have learned as you go.
+Portfolio Carousel - Must look pretty but most importantly have some projects of increasing substance as I progress. Highlight all you have learned as you go. 
+
+Ideally portfolio will contain:
+
+One static site with no slacking on design, movement etc
+
+One dynamic site with some interesting usage of data, eg mixing financial data with weather data and presenting it to check if there are correlations. Could be interesting. 
+
+One JS game using canvas - Have been building a simple frogger style game called Nutty Squirrel. 
+
+JS project ????
 
 Merchendise Section - Using an API of a local company that is growing with hopes of impressing and getting a job :D
