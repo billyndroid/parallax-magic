@@ -42,9 +42,13 @@ added to selection using lasso object select
 
 fine adjustments using zoom/ lasso tool
 
-created layer from copy to be used as foreground image in parallax effect
+### Created layer from copy to be used as foreground image in parallax effect
+
+![screenshot](assets/subject.png)
 
 expanded by 10px to remove any hard edges and prevent aliasing 
+
+![screenshot](assets/foreground.png)
 
 used content-aware fill to manually select area to sample 
 
@@ -56,7 +60,7 @@ prep to be used as background image for parallax effect by removing from backgro
 
 ### And The Foreground...
 
-![screenshot](assets/foreground.png)
+![screenshot](assets/subject.png)
 Portfolio Carousel - Must look pretty but most importantly have some projects of increasing substance as I progress. Highlight all you have learned as you go. 
 
 Ideally portfolio will contain:
