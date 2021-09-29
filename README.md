@@ -1,4 +1,4 @@
-# parallax-magic
+#  Parallax Magic
 Putting together a portfolio and I want to provide examples of modern web design techniques. 
 I can increase efficiency exponentially by documenting the process, and using it in more than one project: 
 
@@ -49,6 +49,10 @@ expanded by 10px to remove any hard edges and prevent aliasing
 used content-aware fill to manually select area to sample 
 
 prep to be used as background image for parallax effect by removing from background and cleaning up with clone stamp and various brushes using the eyedropper to select colours in vicinity
+
+### This is How The Images Turned Out
+
+![screenshot](assets/background.png)
 
 Portfolio Carousel - Must look pretty but most importantly have some projects of increasing substance as I progress. Highlight all you have learned as you go. 
 
