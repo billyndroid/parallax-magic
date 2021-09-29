@@ -54,6 +54,9 @@ prep to be used as background image for parallax effect by removing from backgro
 
 ![screenshot](assets/background.png)
 
+### And The Foreground...
+
+![screenshot](assets/foreground.png)
 Portfolio Carousel - Must look pretty but most importantly have some projects of increasing substance as I progress. Highlight all you have learned as you go. 
 
 Ideally portfolio will contain:
