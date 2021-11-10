@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<!-- Created with Ai->Canvas Export Plug-In Version 1.6 (PC/64) -->
+<!-- By Mike Swanson (http://blog.mikeswanson.com/)             -->
+
+<html lang="en">
+ <head>
+  <meta charset="UTF-8" />
+  <title>Icon-grad</title>
+  <script>
+
+    function init() {
+
+      var canvas = document.getElementById("canvas");
+      var ctx = canvas.getContext("2d");
+
+      draw(ctx);
+    }
+
+    function draw(ctx) {
+
+      // layer3/Group
+      ctx.save();
+
+      // layer3/Group/Path
+      ctx.save();
+      ctx.beginPath();
+      ctx.moveTo(282.0, 0.0);
+      ctx.lineTo(565.0, 136.0);
+      ctx.lineTo(565.0, 154.6);
+      ctx.lineTo(282.0, 287.0);
+      ctx.lineTo(0.0, 151.0);
+      ctx.lineTo(0.0, 135.3);
+      ctx.lineTo(282.0, 0.0);
+      ctx.closePath();
+      ctx.fill();
+
+      // layer3/Group/Path
+      ctx.beginPath();
+      ctx.moveTo(97.0, 221.3);
+      ctx.lineTo(97.0, 307.3);
+      ctx.lineTo(267.0, 389.3);
+      ctx.lineTo(297.5, 389.3);
+      ctx.lineTo(468.0, 307.3);
+      ctx.lineTo(467.0, 222.3);
+      ctx.lineTo(282.5, 305.3);
+      ctx.lineTo(97.0, 221.3);
+      ctx.closePath();
+      ctx.fill();
+
+      // layer3/Group/Path
+      ctx.beginPath();
+      ctx.moveTo(538.0, 192.3);
+      ctx.lineTo(537.0, 352.3);
+      ctx.lineTo(552.0, 396.3);
+      ctx.lineTo(529.0, 428.3);
+      ctx.lineTo(519.1, 428.3);
+      ctx.lineTo(496.0, 396.3);
+      ctx.lineTo(511.0, 353.3);
+      ctx.lineTo(511.0, 205.3);
+      ctx.lineTo(538.0, 192.3);
+      ctx.closePath();
+      ctx.fill();
+      ctx.restore();
+      ctx.restore();
+    }
+  </script>
+ </head>
+ <body onload="init()">
+   <canvas id="canvas" width="566" height="429"></canvas>
+ </body>
+</html>
